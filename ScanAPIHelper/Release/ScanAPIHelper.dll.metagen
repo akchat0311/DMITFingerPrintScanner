@@ -1,0 +1,141 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ScanAPIHelper, Version=1.1.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ScanAPIHelper.ScanAPIException: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Exception
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ErrorCode 'get ' : 
+  Methods:
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+Struct ScanAPIHelper.DeviceInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Byte DeviceCompatibility : Public
+    System.Drawing.Size imageSize : Public
+    ScanAPIHelper.DeviceInfo Empty : Public, Static, InitOnly
+Struct ScanAPIHelper.Version: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int16 wMajorVersionHi : Public
+    Int16 wMajorVersionLo : Public
+    Int16 wMinorVersionHi : Public
+    Int16 wMinorVersionLo : Public
+    ScanAPIHelper.Version Empty : Public, Static, InitOnly
+  Methods:
+    ToString(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct ScanAPIHelper.VersionInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ScanAPIHelper.Version APIVersion : Public
+    ScanAPIHelper.Version HardwareVersion : Public
+    ScanAPIHelper.Version FirmwareVersion : Public
+    ScanAPIHelper.VersionInfo Empty : Public, Static, InitOnly
+Struct ScanAPIHelper.WsqImageParameter: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 Width : Public
+    Int32 Height : Public
+    Int32 DPI : Public
+    Int32 RAW_size : Public
+    Int32 BMP_size : Public
+    Int32 WSQ_size : Public
+    Single Bitrate : Public
+    ScanAPIHelper.WsqImageParameter Empty : Public, Static, InitOnly
+Class ScanAPIHelper.Device: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 BaseInterface 'get set' : 
+    Byte[] SerialNumber 'get ' : 
+    Int32 MemorySize 'get ' : 
+    Int32 LastErrorCode 'get ' : 
+    Boolean RedDiodesStatus 'get ' : 
+    Boolean GreenDiodesStatus 'get ' : 
+    System.Drawing.Size ImageSize 'get ' : 
+    ScanAPIHelper.DeviceInfo Information 'get ' : 
+    Boolean IsFingerPresent 'get ' : 
+    Boolean ReceiveLongImage 'get set' : 
+    Boolean FastFingerDetectMethod 'get set' : 
+    Boolean InvertImage 'get set' : 
+    Boolean DetectFakeFinger 'get set' : 
+    ScanAPIHelper.VersionInfo VersionInformation 'get ' : 
+  Methods:
+    Open(Int32): PrivateScope, Public, HideBySig
+    Open(): PrivateScope, Public, HideBySig
+    Close(): PrivateScope, Public, HideBySig
+    get_VersionInformation(): PrivateScope, Public, HideBySig, SpecialName
+    get_DetectFakeFinger(): PrivateScope, Public, HideBySig, SpecialName
+    set_DetectFakeFinger(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_InvertImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_InvertImage(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_FastFingerDetectMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_FastFingerDetectMethod(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_ReceiveLongImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReceiveLongImage(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFingerPresent(): PrivateScope, Public, HideBySig, SpecialName
+    get_Information(): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_GreenDiodesStatus(): PrivateScope, Public, HideBySig, SpecialName
+    get_RedDiodesStatus(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    SetDiodesStatus(DiodesStatus, DiodesStatus): PrivateScope, Public, HideBySig
+    get_MemorySize(): PrivateScope, Public, HideBySig, SpecialName
+    get_SerialNumber(): PrivateScope, Public, HideBySig, SpecialName
+    GetImage(Int32): PrivateScope, Public, HideBySig
+    GetDarkImage(): PrivateScope, Public, HideBySig
+    GetFrame(): PrivateScope, Public, HideBySig
+    SaveBytes(Byte[]): PrivateScope, Public, HideBySig
+    RestoreBytes(): PrivateScope, Public, HideBySig
+    SetAuthorizationCode(Byte[]): PrivateScope, Public, HideBySig
+    SaveSecretBytes(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    RestoreSecretBytes(Byte[]): PrivateScope, Public, HideBySig
+    SaveMemory(Byte[], Int32, Int32): PrivateScope, Public, HideBySig
+    RestoreMemory(Int32, Int32): PrivateScope, Public, HideBySig
+    GetInterfaces(): PrivateScope, Public, Static, HideBySig
+    get_BaseInterface(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_BaseInterface(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    SetLoggingFacilityLevel(LogMask, LogLevel, String): PrivateScope, Public, Static, HideBySig
+    WSQ_FromRawImage(Byte[], Int32, Int32, Single): PrivateScope, Public, HideBySig
+    WSQ_GetImageParameters(Byte[]): PrivateScope, Public, HideBySig
+    WSQ_ToRAWImage(Byte[], Int32): PrivateScope, Public, HideBySig
+    Math_ImageNfiq(Byte[], Int32, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct ScanAPIHelper.FTRSCAN_INTERFACE_STATUS: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ScanAPIHelper.FTRSCAN_INTERFACE_STATUS FTRSCAN_INTERFACE_STATUS_CONNECTED = 0 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.FTRSCAN_INTERFACE_STATUS FTRSCAN_INTERFACE_STATUS_DISCONNECTED = 1 : Public, Static, Literal, HasDefault
+Struct ScanAPIHelper.LogMask: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ScanAPIHelper.LogMask off = 0 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.LogMask to_file = 1 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.LogMask to_aux = 2 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.LogMask timestamp = 4 : Public, Static, Literal, HasDefault
+Struct ScanAPIHelper.LogLevel: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ScanAPIHelper.LogLevel minimum = 0 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.LogLevel optimal = 1 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.LogLevel full = 2 : Public, Static, Literal, HasDefault
+Struct ScanAPIHelper.DiodesStatus: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Byte value__ : Public, SpecialName, RTSpecialName
+    ScanAPIHelper.DiodesStatus turn_off = 0 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.DiodesStatus turn_on_period = 1 : Public, Static, Literal, HasDefault
+    ScanAPIHelper.DiodesStatus turn_on_permanent = 255 : Public, Static, Literal, HasDefault

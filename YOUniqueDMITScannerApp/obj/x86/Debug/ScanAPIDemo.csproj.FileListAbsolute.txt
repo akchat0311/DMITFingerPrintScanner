@@ -1,0 +1,14 @@
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.csproj.AssemblyReference.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.Form1.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.Properties.Resources.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.csproj.GenerateResource.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.csproj.CoreCompileInputs.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\bin\x86\Debug\ScanAPIDemo.exe.config
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\bin\x86\Debug\ScanAPIDemo.exe
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\bin\x86\Debug\ScanAPIDemo.pdb
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\bin\x86\Debug\ScanAPIHelper.dll
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\bin\x86\Debug\ScanAPIHelper.pdb
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPID.ABD3388F.Up2Date
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.exe
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.pdb
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x86\Debug\ScanAPIDemo.exe.config

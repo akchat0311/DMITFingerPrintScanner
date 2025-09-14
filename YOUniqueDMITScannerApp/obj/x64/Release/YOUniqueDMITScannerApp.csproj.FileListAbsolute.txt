@@ -1,0 +1,11 @@
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YOUniqueDMITScannerApp.csproj.AssemblyReference.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.CustomMessageBox.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.FingerPrintCapture.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.LoginForm.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.Menu.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.PersonalDetails.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.PhotoCapture.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.Properties.Resources.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YouniqueDMITFingurePrintCaptureApp.Settings.resources
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YOUniqueDMITScannerApp.csproj.GenerateResource.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIDemo\obj\x64\Release\YOUniqueDMITScannerApp.csproj.CoreCompileInputs.cache

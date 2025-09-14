@@ -1,0 +1,2 @@
+C:\Users\akcha\Downloads\VS2013\ScanAPIHelper\Debug\ScanAPIHelper.vcxproj.AssemblyReference.cache
+C:\Users\akcha\Downloads\VS2013\ScanAPIHelper\Debug\ScanAPIHelper.dll
